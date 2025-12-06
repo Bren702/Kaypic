@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Accueil";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4">Bienvenue sur votre tableau de bord sécurité</h1>
+
+    <div class="row">
+        <!-- Section 1 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">📦 Surveillez vos applications déployées</h5>
+                    <p class="card-text">Testez vos apps pour détecter les dépendances vulnérables. Recevez des alertes en cas de nouvelles failles.</p>
+                    <a href="/Integrations" class="btn btn-primary">Gestion de goupes</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">🛡️ Protégez votre code source</h5>
+                    <p class="card-text">Analysez vos dépôts pour détecter les vulnérabilités. Créez des pull requests avec des correctifs et recevez des notifications.</p>
+                    <a href="/Chat/Index" class="btn btn-success">Messagerie</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">💻 Surveillez vos projets locaux</h5>
+                    <p class="card-text">Installez notre outil CLI pour analyser les projets locaux. Utilisez <code>snyk monitor</code>.</p>
+                    <a href="https://docs.snyk.io/snyk-cli" target="_blank" class="btn btn-outline-secondary">Documentation CLI</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

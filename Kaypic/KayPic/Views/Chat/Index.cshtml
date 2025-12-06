@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Messagerie";
+}
+
+<div class="container-fluid">
+    <div class="row vh-100">
+        <!-- Liste des discussions -->
+        <div class="col-md-4 border-end bg-light p-3 overflow-auto">
+            <h5 class="mb-3">Discussions</h5>
+            <input type="text" class="form-control mb-3" placeholder="Rechercher ou démarrer une discussion" />
+
+            <ul class="list-group">
+                @foreach (var contact in ViewBag.MessagingPersona)
+                {
+                    <li class="list-group-item list-group-item-action" onclick="loadConversation('@contact.mp_id')">
+                        <strong>@contact.mp_fname</strong><br />
+                    </li>
+                }
+            </ul>
+        </div>
+
+        <!-- Zone de conversation -->
+        <div class="col-md-8 d-flex flex-column p-3">
+            <div id="chatHeader" class="border-bottom pb-2 mb-2">
+                <h5 id="chatTitle">Sélectionnez une discussion</h5>
+            </div>
+
+            <div id="chatMessages" class="flex-grow-1 overflow-auto mb-3">
+                <!-- Les messages s'affichent ici -->
+            </div>
+
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Tapez un message..." />
+                <button class="btn btn-primary">Envoyer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function loadConversation(contactId) {
+            // Appel AJAX simulé — à remplacer par une vraie requête
+            document.getElementById("chatTitle").innerText = "Conversation avec " + contactId;
+            document.getElementById("chatMessages").innerHTML = `
+                <div class="mb-2"><strong>${contactId}</strong>: Salut !</div>
+                <div class="mb-2 text-end"><strong>Moi</strong>: Hello !</div>
+            `;
+        }
+    </script>
+}

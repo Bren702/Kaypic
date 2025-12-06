@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - KayPic</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/KayPic.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="d-flex">
+        <!-- Sidebar -->
+        <aside class="border-end vh-100 p-3 text-light" style="width: 250px; background-color: #090F61">
+            <h2 class="" asp-area="">KayPic</h2>
+            <br />
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                    <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Accueil</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Confidentialité</a>
+                </li>
+                <li class="nav-item mb-2">
+                    @Html.Partial("_LoginPartial")
+                </li>
+                <!-- Ajoute d'autres liens ici -->
+            </ul>
+        </aside>
+
+        <!-- Contenu principal -->
+        <main class="flex-grow-1 p-4">
+            @RenderBody()
+        </main>
+    </div>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - KayPic - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

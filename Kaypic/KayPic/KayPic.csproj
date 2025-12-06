@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>cad2ba6e-f27a-4e69-9384-4bc5f919853a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Areas\Chat\**" />
+    <Compile Remove="Areas\Identity\Controllers\**" />
+    <Compile Remove="Areas\Identity\Views\**" />
+    <Compile Remove="Areas\Management\**" />
+    <Content Remove="Areas\Chat\**" />
+    <Content Remove="Areas\Identity\Controllers\**" />
+    <Content Remove="Areas\Identity\Views\**" />
+    <Content Remove="Areas\Management\**" />
+    <EmbeddedResource Remove="Areas\Chat\**" />
+    <EmbeddedResource Remove="Areas\Identity\Controllers\**" />
+    <EmbeddedResource Remove="Areas\Identity\Views\**" />
+    <EmbeddedResource Remove="Areas\Management\**" />
+    <None Remove="Areas\Chat\**" />
+    <None Remove="Areas\Identity\Controllers\**" />
+    <None Remove="Areas\Identity\Views\**" />
+    <None Remove="Areas\Management\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+    <PackageReference Include="SendGrid" Version="9.29.3" />
+  </ItemGroup>
+
+</Project>

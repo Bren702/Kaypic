@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Communication";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4 text-primary">Espace Communication</h2>
+    <p class="lead">Choisissez une section pour gérer vos échanges :</p>
+
+    <div class="row">
+        <!-- Messages -->
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">💬 Messages</h5>
+                    <p class="card-text">Conversations privées et de groupe avec les coachs, parents et capitaines.</p>
+                    <a asp-controller="Communication" asp-action="Messages" class="btn btn-primary">Accéder</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Calendrier -->
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">📅 Calendrier</h5>
+                    <p class="card-text">Consultez les événements à venir et recevez des rappels.</p>
+                    <a asp-controller="Communication" asp-action="Calendrier" class="btn btn-success">Accéder</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Annonces -->
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">📢 Annonces</h5>
+                    <p class="card-text">Flux d’informations unidirectionnel pour les nouvelles importantes.</p>
+                    <a asp-controller="Communication" asp-action="Annonces" class="btn btn-warning">Accéder</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

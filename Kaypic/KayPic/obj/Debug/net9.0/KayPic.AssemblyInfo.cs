@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KayPic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb42af198e42ba8bd902343167baaed17425bfe0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d28f587a6a078a2c52924c75310a42638e9fe06")]
 [assembly: System.Reflection.AssemblyProductAttribute("KayPic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KayPic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

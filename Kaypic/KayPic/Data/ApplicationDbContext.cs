@@ -13,5 +13,11 @@ namespace KayPic.Data
         public DbSet<Parent> Parents { get; set; } = default!;
         public DbSet<TeamManager> TeamManagers { get; set; } = default!;
         public DbSet<TeamSeason> TeamSeasons { get; set; } = default!;
+        public DbSet<MessagingPersona> MessagingPersonas { get; set; } = default!;
+        public DbSet<MessagingChat> MessagingChats { get; set; } = default!;
+        public DbSet<MessagingChatPersona> MessagingChatPersonas { get; set; } = default!;
+        public DbSet<MessagingChatPersonaMessage> MessagingChatPersonaMessages { get; set; } = default!;
+        public DbSet<MessagingMedia> MessagingMedias { get; set; } = default!;
+        public DbSet<News> News { get; set; } = default!;
     }
 }

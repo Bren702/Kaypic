@@ -1,10 +1,19 @@
-﻿using KayPic.Models;
+﻿using KayPic.Data;
+using KayPic.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace KayPic.Controllers
 {
     public class CommunicationController : Controller
     {
+        private readonly ApplicationDbContext _context;
+
+        public CommunicationController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
         public IActionResult Index()
         {
             /*
@@ -47,9 +56,15 @@ namespace KayPic.Controllers
             return View();
         }
 
-        public IActionResult Annonces()
+        public async Task<IActionResult> Annonces()
         {
-            return View();
+            var news = await _context.News
+                .Include(n => n.author_mp)
+                .Where(n => n.news_status == Status.active)
+                .OrderByDescending(n => n.date_posted)
+                .ToListAsync();
+            
+            return View(news);
         }
     }
 }

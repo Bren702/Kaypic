@@ -76,6 +76,8 @@ app.MapControllerRoute(
 );
 
 app.MapHub<ChatHub>("/chatHub");
+app.MapHub<MessagingHub>("/messagingHub");
+app.MapHub<AnnouncementHub>("/announcementHub");
 
 app.MapRazorPages();
 app.Run();

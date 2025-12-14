@@ -5,25 +5,56 @@
 
 <div class="container mt-4">
     <h2>Annonces</h2>
-    @foreach (var item in Model)
-    {
-        <div class="card mb-2">
-            <div class="card-body">
-                <h6 class="card-title">@item.news_title</h6>
-                <p class="card-text">@item.news_body</p>
-            </div>
-        </div>
-    }
-    <div class="card mb-2">
-        <div class="card-body">
-            <h6 class="card-title">📣 Nouveau plan d'entraînement</h6>
-            <p class="card-text">Le nouveau plan est disponible dans la section documents.</p>
-        </div>
-    </div>
-    <div class="card mb-2">
-        <div class="card-body">
-            <h6 class="card-title">📢 Match déplacé</h6>
-            <p class="card-text">Le match de samedi est déplacé à 18h.</p>
-        </div>
+    
+    <!-- Real-time announcements container -->
+    <div id="announcementsContainer">
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <div class="card mb-3 announcement-card" data-news-id="@item.news_id">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="card-title announcement-title">📣 @item.news_title</h6>
+                            <small class="text-muted">@item.date_posted.ToString("dd/MM/yyyy HH:mm")</small>
+                        </div>
+                        <p class="card-text announcement-body">@item.news_body</p>
+                        @if (item.author_mp != null)
+                        {
+                            <small class="text-muted">Par @item.author_mp.mp_fname @item.author_mp.mp_lname</small>
+                        }
+                    </div>
+                </div>
+            }
+        }
     </div>
 </div>
+
+@section Scripts {
+    <!-- SignalR CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@@microsoft/signalr@latest/dist/browser/signalr.min.js"></script>
+    <!-- Announcements JavaScript -->
+    <script src="~/js/announcements.js"></script>
+}
+
+<style>
+    .announcement-new {
+        animation: slideIn 0.5s ease-out;
+    }
+
+    .announcement-updated {
+        background-color: #fff3cd;
+        transition: background-color 1s;
+    }
+
+    @@keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>

@@ -7,15 +7,15 @@
 
     <!-- Conversations -->
     <div class="list-group mb-3">
-        <a href="#" class="list-group-item list-group-item-action">
+        <a href="#" class="list-group-item list-group-item-action" data-chat-id="1" data-mp-id="1">
             <strong>Coach – Équipe U15</strong><br>
             <small class="text-muted">Prochain match déplacé à 18h</small>
         </a>
-        <a href="#" class="list-group-item list-group-item-action">
+        <a href="#" class="list-group-item list-group-item-action" data-chat-id="2" data-mp-id="1">
             <strong>Parents – Groupe</strong><br>
             <small class="text-muted">Qui amène les collations ?</small>
         </a>
-        <a href="#" class="list-group-item list-group-item-action">
+        <a href="#" class="list-group-item list-group-item-action" data-chat-id="3" data-mp-id="1">
             <strong>Capitaines</strong><br>
             <small class="text-muted">Nouveau plan d'entraînement</small>
         </a>
@@ -25,12 +25,29 @@
     <div class="card">
         <div class="card-header">Chat – Coach & Parents</div>
         <div class="card-body">
-            <p><strong>Coach:</strong> Match prévu samedi à 17h 🌐</p>
-            <p><strong>Parent:</strong> Parfait, à samedi !</p>
+            <!-- Messages container with scroll -->
+            <div id="messagesContainer" style="height: 400px; overflow-y: auto; margin-bottom: 1rem; padding: 1rem; border: 1px solid #dee2e6; border-radius: 0.25rem;">
+                <p><strong>Coach:</strong> Match prévu samedi à 17h 🌐</p>
+                <p><strong>Parent:</strong> Parfait, à samedi !</p>
+            </div>
+            
+            <!-- Typing indicator -->
+            <div id="typingIndicator" style="display: none; margin-bottom: 0.5rem;">
+                <small class="text-muted"><em></em></small>
+            </div>
+            
+            <!-- Message input -->
             <div class="input-group mt-3">
-                <input type="text" class="form-control" placeholder="Écrire un message...">
-                <button class="btn btn-primary">Envoyer</button>
+                <input type="text" id="messageInput" class="form-control" placeholder="Écrire un message...">
+                <button id="sendMessageButton" class="btn btn-primary">Envoyer</button>
             </div>
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <!-- SignalR CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@@microsoft/signalr@latest/dist/browser/signalr.min.js"></script>
+    <!-- Messaging JavaScript -->
+    <script src="~/js/messaging.js"></script>
+}

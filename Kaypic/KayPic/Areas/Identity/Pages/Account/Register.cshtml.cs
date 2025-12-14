@@ -10,7 +10,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using System.ComponentModel.DataAnnotations;
-using System.Net.Mail;
 using System.Text;
 using System.Text.Encodings.Web;
 
@@ -122,11 +121,10 @@ namespace KayPic.Areas.Identity.Pages.Account
                 var result = await _userManager.CreateAsync((Persona)user, Input.Password);
                 */
 
-                MailAddress address = new MailAddress(Input.Email);
-                string userName = address.User;
+                // Utiliser l'email complet comme UserName pour la cohérence avec le login
                 var user = new Persona
                 {
-                    UserName = userName,
+                    UserName = Input.Email,
                     Email = Input.Email,
                     FirstName = Input.FirstName,
                     LastName = Input.LastName,

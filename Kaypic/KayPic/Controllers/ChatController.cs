@@ -16,7 +16,7 @@ namespace KayPic.Controllers
                     mp_lname = "Rosemont",
                     mp_email = "footrosemont@example.com",
                     mp_status = Status.active,
-                    mp_category = "Groupe",
+                    mp_category = PersonaCategory.parent,
                     created_at = DateTime.Now.AddDays(-1)
                 },
                 new MessagingPersona
@@ -26,7 +26,7 @@ namespace KayPic.Controllers
                     mp_lname = "Ndacke",
                     mp_email = "kadi@example.com",
                     mp_status = Status.active,
-                    mp_category = "Contact",
+                    mp_category = PersonaCategory.player,
                     created_at = DateTime.Now.AddDays(-2)
                 }
             };

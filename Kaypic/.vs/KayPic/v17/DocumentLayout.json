@@ -1,61 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\",
+  "WorkspaceRootPath": "C:\\Users\\brend\\Kaypic\\Kaypic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\data\\applicationdbfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\data\\applicationdbfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\data\\identitydbfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\data\\identitydbfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\migrations\\20251207220917_initialapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\migrations\\20251207220917_initialapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\views\\communication\\annonces.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\data\\identitydbfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\data\\identitydbfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\migrations\\20251207220917_initialapplication.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\migrations\\20251207220917_initialapplication.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\data\\applicationdbfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\data\\applicationdbfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\views\\communication\\annonces.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\views\\communication\\annonces.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\views\\communication\\calendrier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\views\\communication\\calendrier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\views\\communication\\calendrier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\views\\communication\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\views\\communication\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\views\\communication\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\controllers\\organisationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\controllers\\organisationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\controllers\\organisationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\views\\organisation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\views\\organisation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\views\\organisation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\hubs\\ichathubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\hubs\\ichathubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\hubs\\ichathubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,15 +78,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "KayPic\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "KayPic\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T20:37:06.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "20251207220917_InitialApplication.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Migrations\\20251207220917_InitialApplication.cs",
+              "RelativeDocumentMoniker": "KayPic\\Migrations\\20251207220917_InitialApplication.cs",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Migrations\\20251207220917_InitialApplication.cs",
+              "RelativeToolTip": "KayPic\\Migrations\\20251207220917_InitialApplication.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T20:19:00.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IdentityDbFactory.cs",
-              "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Data\\IdentityDbFactory.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Data\\IdentityDbFactory.cs",
               "RelativeDocumentMoniker": "KayPic\\Data\\IdentityDbFactory.cs",
-              "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Data\\IdentityDbFactory.cs",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Data\\IdentityDbFactory.cs",
               "RelativeToolTip": "KayPic\\Data\\IdentityDbFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -85,9 +123,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "KayPic\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "KayPic\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -96,11 +134,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "20251207220917_InitialApplication.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Migrations\\20251207220917_InitialApplication.Designer.cs",
+              "RelativeDocumentMoniker": "KayPic\\Migrations\\20251207220917_InitialApplication.Designer.cs",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Migrations\\20251207220917_InitialApplication.Designer.cs",
+              "RelativeToolTip": "KayPic\\Migrations\\20251207220917_InitialApplication.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T20:19:37.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ApplicationDbFactory.cs",
-              "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Data\\ApplicationDbFactory.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Data\\ApplicationDbFactory.cs",
               "RelativeDocumentMoniker": "KayPic\\Data\\ApplicationDbFactory.cs",
-              "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Data\\ApplicationDbFactory.cs",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Data\\ApplicationDbFactory.cs",
               "RelativeToolTip": "KayPic\\Data\\ApplicationDbFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -109,24 +160,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Annonces.cshtml",
-              "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Views\\Communication\\Annonces.cshtml",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Communication\\Annonces.cshtml",
               "RelativeDocumentMoniker": "KayPic\\Views\\Communication\\Annonces.cshtml",
-              "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Views\\Communication\\Annonces.cshtml",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Communication\\Annonces.cshtml",
               "RelativeToolTip": "KayPic\\Views\\Communication\\Annonces.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-07T23:07:12.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T23:07:12.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\appsettings.json",
               "RelativeDocumentMoniker": "KayPic\\appsettings.json",
-              "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\appsettings.json",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\appsettings.json",
               "RelativeToolTip": "KayPic\\appsettings.json",
               "ViewState": "AgIAAAIAAAAAAAAAAAASwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -134,11 +184,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Calendrier.cshtml",
-              "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Views\\Communication\\Calendrier.cshtml",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Communication\\Calendrier.cshtml",
               "RelativeDocumentMoniker": "KayPic\\Views\\Communication\\Calendrier.cshtml",
-              "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Views\\Communication\\Calendrier.cshtml",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Communication\\Calendrier.cshtml",
               "RelativeToolTip": "KayPic\\Views\\Communication\\Calendrier.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -146,11 +196,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "KayPic\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "KayPic\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -158,11 +208,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Program.cs",
               "RelativeDocumentMoniker": "KayPic\\Program.cs",
-              "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Program.cs",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Program.cs",
               "RelativeToolTip": "KayPic\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -170,11 +220,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Views\\Communication\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Communication\\Index.cshtml",
               "RelativeDocumentMoniker": "KayPic\\Views\\Communication\\Index.cshtml",
-              "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Views\\Communication\\Index.cshtml",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Communication\\Index.cshtml",
               "RelativeToolTip": "KayPic\\Views\\Communication\\Index.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -182,11 +232,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "KayPic\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "KayPic\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAASwCwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -194,11 +244,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "OrganisationController.cs",
-              "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Controllers\\OrganisationController.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Controllers\\OrganisationController.cs",
               "RelativeDocumentMoniker": "KayPic\\Controllers\\OrganisationController.cs",
-              "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Controllers\\OrganisationController.cs",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Controllers\\OrganisationController.cs",
               "RelativeToolTip": "KayPic\\Controllers\\OrganisationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -206,11 +256,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Views\\Organisation\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Organisation\\Index.cshtml",
               "RelativeDocumentMoniker": "KayPic\\Views\\Organisation\\Index.cshtml",
-              "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Views\\Organisation\\Index.cshtml",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Organisation\\Index.cshtml",
               "RelativeToolTip": "KayPic\\Views\\Organisation\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -218,11 +268,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ChatHub.cs",
-              "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Hubs\\ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "KayPic\\Hubs\\ChatHub.cs",
-              "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "KayPic\\Hubs\\ChatHub.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAAAG0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -230,11 +280,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "IChatHubClient.cs",
-              "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Hubs\\IChatHubClient.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Hubs\\IChatHubClient.cs",
               "RelativeDocumentMoniker": "KayPic\\Hubs\\IChatHubClient.cs",
-              "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Hubs\\IChatHubClient.cs",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Hubs\\IChatHubClient.cs",
               "RelativeToolTip": "KayPic\\Hubs\\IChatHubClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

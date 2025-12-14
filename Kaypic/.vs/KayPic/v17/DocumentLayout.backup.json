@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\brend\\Kaypic\\Kaypic\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic\\kaypic\\kaypic\\migrations\\20251207220917_initialapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\migrations\\20251207220917_initialapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,6 +83,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "KayPic\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "KayPic\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T20:37:06.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "20251207220917_InitialApplication.cs",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Migrations\\20251207220917_InitialApplication.cs",
               "RelativeDocumentMoniker": "KayPic\\Migrations\\20251207220917_InitialApplication.cs",
@@ -91,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IdentityDbFactory.cs",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Data\\IdentityDbFactory.cs",
               "RelativeDocumentMoniker": "KayPic\\Data\\IdentityDbFactory.cs",
@@ -104,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "KayPic\\Data\\ApplicationDbContext.cs",
@@ -117,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "20251207220917_InitialApplication.Designer.cs",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Migrations\\20251207220917_InitialApplication.Designer.cs",
               "RelativeDocumentMoniker": "KayPic\\Migrations\\20251207220917_InitialApplication.Designer.cs",
@@ -130,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ApplicationDbFactory.cs",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Data\\ApplicationDbFactory.cs",
               "RelativeDocumentMoniker": "KayPic\\Data\\ApplicationDbFactory.cs",
@@ -143,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Annonces.cshtml",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Communication\\Annonces.cshtml",
               "RelativeDocumentMoniker": "KayPic\\Views\\Communication\\Annonces.cshtml",
@@ -155,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\appsettings.json",
               "RelativeDocumentMoniker": "KayPic\\appsettings.json",
@@ -167,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Calendrier.cshtml",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Communication\\Calendrier.cshtml",
               "RelativeDocumentMoniker": "KayPic\\Views\\Communication\\Calendrier.cshtml",
@@ -179,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "KayPic\\Views\\Home\\Index.cshtml",
@@ -191,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Program.cs",
               "RelativeDocumentMoniker": "KayPic\\Program.cs",
@@ -203,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Communication\\Index.cshtml",
               "RelativeDocumentMoniker": "KayPic\\Views\\Communication\\Index.cshtml",
@@ -215,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "KayPic\\Views\\Shared\\_Layout.cshtml",
@@ -227,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "OrganisationController.cs",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Controllers\\OrganisationController.cs",
               "RelativeDocumentMoniker": "KayPic\\Controllers\\OrganisationController.cs",
@@ -239,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Views\\Organisation\\Index.cshtml",
               "RelativeDocumentMoniker": "KayPic\\Views\\Organisation\\Index.cshtml",
@@ -251,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "KayPic\\Hubs\\ChatHub.cs",
@@ -263,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "IChatHubClient.cs",
               "DocumentMoniker": "C:\\Users\\brend\\Kaypic\\Kaypic\\KayPic\\Hubs\\IChatHubClient.cs",
               "RelativeDocumentMoniker": "KayPic\\Hubs\\IChatHubClient.cs",

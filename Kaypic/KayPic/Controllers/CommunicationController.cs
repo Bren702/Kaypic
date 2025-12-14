@@ -1,17 +1,22 @@
 ﻿using KayPic.Data;
 using KayPic.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace KayPic.Controllers
 {
+    [Authorize]
     public class CommunicationController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<Persona> _userManager;
 
-        public CommunicationController(ApplicationDbContext context)
+        public CommunicationController(ApplicationDbContext context, UserManager<Persona> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         public IActionResult Index()
@@ -46,8 +51,41 @@ namespace KayPic.Controllers
 
         }
 
-        public IActionResult Messages()
+        public async Task<IActionResult> Messages()
         {
+            // Get the current authenticated user
+            var currentUser = await _userManager.GetUserAsync(User);
+            
+            if (currentUser == null)
+            {
+                return Challenge();
+            }
+
+            // Find the MessagingPersona(s) linked to the current user by email
+            var messagingPersonas = await _context.MessagingPersonas
+                .Where(mp => mp.mp_email == currentUser.Email)
+                .Select(mp => mp.mp_id)
+                .ToListAsync();
+
+            // If the user has no MessagingPersona, return empty list
+            if (!messagingPersonas.Any())
+            {
+                ViewBag.Chats = new List<MessagingChat>();
+                return View();
+            }
+
+            // Filter chats where the user is a member
+            var userChats = await _context.MessagingChatPersonas
+                .Where(mcp => messagingPersonas.Contains(mcp.mcp_mp_id) && mcp.mcp_status == Status.active)
+                .Include(mcp => mcp.mcp_mc)
+                    .ThenInclude(mc => mc.created_by_mp)
+                .Include(mcp => mcp.mcp_mc)
+                    .ThenInclude(mc => mc.mc_team_season)
+                .Select(mcp => mcp.mcp_mc)
+                .Distinct()
+                .ToListAsync();
+
+            ViewBag.Chats = userChats;
             return View();
         }
 
@@ -58,9 +96,32 @@ namespace KayPic.Controllers
 
         public async Task<IActionResult> Annonces()
         {
+            // Get the current authenticated user
+            var currentUser = await _userManager.GetUserAsync(User);
+            
+            if (currentUser == null)
+            {
+                return Challenge();
+            }
+
+            // Find all TeamSeasons the user belongs to via MessagingPersona
+            var userTeamSeasonIds = await _context.MessagingPersonas
+                .Where(mp => mp.mp_email == currentUser.Email && mp.mp_status == Status.active)
+                .Select(mp => mp.mp_team_season_id)
+                .Distinct()
+                .ToListAsync();
+
+            // If the user doesn't belong to any team seasons, return empty list
+            if (!userTeamSeasonIds.Any())
+            {
+                return View(new List<News>());
+            }
+
+            // Filter news to only those published in the user's team seasons
             var news = await _context.News
                 .Include(n => n.author_mp)
-                .Where(n => n.news_status == Status.active)
+                .Include(n => n.news_ts)
+                .Where(n => n.news_status == Status.active && userTeamSeasonIds.Contains(n.news_ts_id))
                 .OrderByDescending(n => n.date_posted)
                 .ToListAsync();
             

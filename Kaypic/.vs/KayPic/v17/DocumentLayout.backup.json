@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\views\\communication\\annonces.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|solutionrelative:kaypic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{100C88D9-BA0C-4087-A04E-5FEF18DE8126}|KayPic\\KayPic.csproj|c:\\users\\brend\\kaypic_projet-session_emmanuelgnim\\kaypic\\kaypic\\views\\communication\\calendrier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -64,23 +64,22 @@
               "RelativeDocumentMoniker": "KayPic\\Views\\Communication\\Annonces.cshtml",
               "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Views\\Communication\\Annonces.cshtml",
               "RelativeToolTip": "KayPic\\Views\\Communication\\Annonces.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-07T23:07:12.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\appsettings.json",
               "RelativeDocumentMoniker": "KayPic\\appsettings.json",
               "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\appsettings.json",
               "RelativeToolTip": "KayPic\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAASwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-07T21:58:56.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T21:58:56.837Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "KayPic\\Views\\Communication\\Calendrier.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-07T21:26:10.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T21:26:10.091Z"
             },
             {
               "$type": "Document",
@@ -105,21 +103,19 @@
               "RelativeToolTip": "KayPic\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-07T01:04:16.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T01:04:16.456Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Program.cs",
               "RelativeDocumentMoniker": "KayPic\\Program.cs",
               "ToolTip": "C:\\Users\\brend\\kaypic_projet-session_emmanuelgnim\\KayPic\\KayPic\\Program.cs",
               "RelativeToolTip": "KayPic\\Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T01:03:22.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T01:03:22.85Z"
             },
             {
               "$type": "Document",
@@ -131,8 +127,7 @@
               "RelativeToolTip": "KayPic\\Views\\Communication\\Index.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-07T01:01:19.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T01:01:19.235Z"
             },
             {
               "$type": "Document",
@@ -144,8 +139,7 @@
               "RelativeToolTip": "KayPic\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAASwCwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-28T16:51:39.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T16:51:39.457Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "KayPic\\Controllers\\OrganisationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T21:04:10.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T21:04:10.749Z"
             },
             {
               "$type": "Document",
@@ -170,8 +163,7 @@
               "RelativeToolTip": "KayPic\\Views\\Organisation\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-07T21:04:28.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T21:04:28.413Z"
             },
             {
               "$type": "Document",

@@ -5,6 +5,15 @@
 
 <div class="container mt-4">
     <h2>Annonces</h2>
+    @foreach (var item in Model)
+    {
+        <div class="card mb-2">
+            <div class="card-body">
+                <h6 class="card-title">@item.news_title</h6>
+                <p class="card-text">@item.news_body</p>
+            </div>
+        </div>
+    }
     <div class="card mb-2">
         <div class="card-body">
             <h6 class="card-title">📣 Nouveau plan d'entraînement</h6>

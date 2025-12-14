@@ -533,3 +533,4 @@ C:\Users\brend\kaypic_projet-session_emmanuelgnim\KayPic\KayPic\obj\Debug\net9.0
 C:\Users\brend\kaypic_projet-session_emmanuelgnim\KayPic\KayPic\bin\Debug\net9.0\System.Net.WebSockets.WebSocketProtocol.dll
 C:\Users\brend\kaypic_projet-session_emmanuelgnim\KayPic\KayPic\bin\Debug\net9.0\SendGrid.dll
 C:\Users\brend\kaypic_projet-session_emmanuelgnim\KayPic\KayPic\bin\Debug\net9.0\StarkbankEcdsa.dll
+C:\Users\brend\kaypic_projet-session_emmanuelgnim\KayPic\KayPic\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

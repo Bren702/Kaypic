@@ -82,8 +82,10 @@ messagingConnection.on("MessageEdited", (chatId, messageId, newMessage, editedAt
             const messageTextElement = messageElement.querySelector(".message-text");
             if (messageTextElement) {
                 messageTextElement.textContent = newMessage;
-                const editedBadge = '<span class="badge bg-secondary ms-2">Modifié</span>';
-                messageTextElement.innerHTML += editedBadge;
+                const editedBadge = document.createElement('span');
+                editedBadge.className = 'badge bg-secondary ms-2';
+                editedBadge.textContent = 'Modifié';
+                messageTextElement.appendChild(editedBadge);
             }
         }
     }
@@ -150,6 +152,12 @@ async function editMessage(messageId, newMessage) {
 }
 
 // Helper functions for UI
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
 function displayMessage(messageId, senderId, senderName, message, timestamp, isDeleted) {
     const messagesContainer = document.getElementById("messagesContainer");
     if (!messagesContainer) return;
@@ -159,7 +167,8 @@ function displayMessage(messageId, senderId, senderName, message, timestamp, isD
     messageElement.setAttribute("data-message-id", messageId);
     messageElement.setAttribute("data-sender-id", senderId);
 
-    const isSelf = senderId === currentMessagingPersonaId;
+    // Ensure type consistency for comparison
+    const isSelf = parseInt(senderId) === parseInt(currentMessagingPersonaId);
     const alignClass = isSelf ? "text-end" : "text-start";
 
     const formattedTime = new Date(timestamp).toLocaleTimeString('fr-FR', { 
@@ -169,12 +178,12 @@ function displayMessage(messageId, senderId, senderName, message, timestamp, isD
 
     const messageContent = isDeleted 
         ? '<em class="text-muted">Message supprimé</em>'
-        : message;
+        : escapeHtml(message);
 
     messageElement.innerHTML = `
         <div class="${alignClass}">
-            <strong class="message-sender">${senderName}</strong>
-            <small class="text-muted ms-2">${formattedTime}</small>
+            <strong class="message-sender">${escapeHtml(senderName)}</strong>
+            <small class="text-muted ms-2">${escapeHtml(formattedTime)}</small>
             <div class="message-text">${messageContent}</div>
         </div>
     `;
@@ -188,7 +197,7 @@ function displaySystemMessage(message) {
 
     const messageElement = document.createElement("div");
     messageElement.className = "system-message text-center text-muted my-2";
-    messageElement.innerHTML = `<small><em>${message}</em></small>`;
+    messageElement.innerHTML = `<small><em>${escapeHtml(message)}</em></small>`;
 
     messagesContainer.appendChild(messageElement);
 }

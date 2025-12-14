@@ -112,7 +112,7 @@ function displayNewAnnouncement(newsId, title, body, authorName, datePosted) {
         <div class="card-body">
             <div class="d-flex justify-content-between align-items-start mb-2">
                 <h6 class="card-title announcement-title">📣 ${escapeHtml(title)}</h6>
-                <small class="text-muted">${formattedDate}</small>
+                <small class="text-muted">${escapeHtml(formattedDate)}</small>
             </div>
             <p class="card-text announcement-body">${escapeHtml(body)}</p>
             <small class="text-muted">Par ${escapeHtml(authorName)}</small>
